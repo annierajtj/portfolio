@@ -1,0 +1,2 @@
+export const SET_MENUOPEN = 'SET_MENUOPEN';
+export const SET_SHOWNINTRO = 'SET_SHOWNINTRO';

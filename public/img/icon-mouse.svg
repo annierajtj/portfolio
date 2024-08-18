@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="28" viewBox="0 0 19 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        opacity: 0.3;
+      }
+    </style>
+  </defs>
+  <path id="icn:_mouse" data-name="icn: mouse" class="cls-1" d="M801.5,123a9.426,9.426,0,0,0-9.5,9.329v9.343a9.5,9.5,0,0,0,19,0v-9.343A9.427,9.427,0,0,0,801.5,123Zm8.445,18.672a8.446,8.446,0,0,1-16.89,0v-9.343a8.446,8.446,0,0,1,16.89,0v9.343ZM801.5,126.111a0.524,0.524,0,0,0-.528.518v4.7a0.528,0.528,0,0,0,1.056,0v-4.7A0.523,0.523,0,0,0,801.5,126.111Z" transform="translate(-792 -123)"/>
+</svg>
