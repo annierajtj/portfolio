@@ -175,7 +175,7 @@ class Inner extends Component {
             <div className="inner__menu">
                     <Link to="/" onClick={this.closemenu}  className="menu-link__link" onMouseEnter={this.cursorActive} onMouseLeave={this.cursorInactive}><div className="menu-link__title" >Home
                         <div className="menu-link__hover"></div></div> </Link>
-                    <Link to="annie_raj_tj.pdf" onClick={this.closemenu}  className="menu-link__link" onMouseEnter={this.cursorActive} onMouseLeave={this.cursorInactive}><div className="menu-link__title" >Resume
+                    <Link to="annie_raj_tj.pdf" onClick={this.closemenu}  className="menu-link__link" onMouseEnter={this.cursorActive} onMouseLeave={this.cursorInactive}><div className="menu-link__title" download>Resume
                         <div className="menu-link__hover"></div></div> </Link>
                     <Link to="work" onClick={this.closemenu}  className="menu-link__link" onMouseEnter={this.cursorActive} onMouseLeave={this.cursorInactive}><div className="menu-link__title" >Work
                         <div className="menu-link__hover" ></div></div> </Link>
