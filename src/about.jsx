@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { ExternalLink } from 'react-external-link';
-import {TimelineMax,Power2} from 'gsap';
 
 class About extends Component {
 
