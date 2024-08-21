@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import {TimelineMax, Elastic, Power2} from 'gsap';
+import {TimelineMax, Elastic, Power2,gsap} from 'gsap';
 import {createStore} from 'redux';
 import reducer from './reducers';
 import {Provider} from 'react-redux';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Store = createStore(
   reducer,
@@ -14,7 +15,7 @@ const Store = createStore(
 Store.subscribe(()=>console.log(Store.getState()));
 
 const mouseMove = (element,child, e) => {
-   
+  gsap.registerPlugin(ScrollTrigger);
   var tl =new TimelineMax();
   
    tl.to(element, 0, {
