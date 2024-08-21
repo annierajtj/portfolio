@@ -6,6 +6,7 @@ import {createStore} from 'redux';
 import reducer from './reducers';
 import {Provider} from 'react-redux';
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
 
 const Store = createStore(
   reducer,
@@ -15,7 +16,7 @@ const Store = createStore(
 Store.subscribe(()=>console.log(Store.getState()));
 
 const mouseMove = (element,child, e) => {
-  gsap.registerPlugin(ScrollTrigger);
+  
   var tl =new TimelineMax();
   
    tl.to(element, 0, {
